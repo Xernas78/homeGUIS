@@ -1,0 +1,21 @@
+name: HomeGUIS
+version: '1.0.0'
+main: dev.xernas.homeguis.HomeGUIS
+api-version: 1.18
+authors: [Xernas78]
+description: Un simple plugin de home fonctionnant avec des GUI
+commands:
+  home:
+    permission: homeguis.home.open
+    permission-message: §cVous n'avez pas la permission d'éxécuter cette commande
+    description: La commande principale qui vous permets d'ouvrir le GUI des homes
+    aliases:
+      - homes
+  sethome:
+    permission: homeguis.sethome
+    permission-message: §cVous n'avez pas la permission d'éxécuter cette commande
+    description: Vous permets de set un home
+  delhome:
+    permission: homehuis.delhome
+    permission-message: §cVous n'avez pas la permission d'éxécuter cette commande
+    description: Vous permets de supprimer un home
