@@ -2,7 +2,7 @@ name: HomeGUIS
 version: '${project.version}'
 main: dev.xernas.homeguis.HomeGUIS
 api-version: 1.18
-authors: [Xernas78]
+authors: [Xernas Dev]
 description: Un simple plugin de home fonctionnant avec des GUI
 commands:
   home:
